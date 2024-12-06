@@ -6,6 +6,7 @@
 }
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 body{
     color:#555;
@@ -14,6 +15,7 @@ body{
     line-height: 1;
     font-weight: 400;
     font-size:1.6rem;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -23,7 +25,7 @@ header{
     height: 9.6rem;
     padding: 0 4.8rem;
     font-weight: bold;
-    position: relative;
+  
 }
  header img{
    width: 15rem;
@@ -61,8 +63,9 @@ header{
   border: none;
   background: none;
   cursor: pointer;
-
+ 
   display: none;
+  
 }
 
 .icon-mobile-nav {
@@ -71,7 +74,7 @@ header{
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name="close"] {
   display: none;
 }
 /*section hreo*/
@@ -528,6 +531,17 @@ header{
    margin-bottom: 9.6rem;
    
  }
+ .btn-price:link,
+.btn-price:visited {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-price:hover,
+.btn-price:active {
+  background-color: #cf711f;
+}
  .plan-details {
    font-size: 1.6rem;
    line-height: 1.6;
@@ -728,24 +742,5 @@ header{
    color: #767676;
    margin-top: auto;
  }
- .btn-mobile-nav {
-  display: block;
-}/* MOBILE */
-.btn-mobile-nav {
-  border: none;
-  background: none;
-  cursor: pointer;
-
-  display: none;
-}
-
-.icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
-  color: #333;
-}
-
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
-}
+ 
  
